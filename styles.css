@@ -1,0 +1,114 @@
+body {
+   
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    width:100%;
+}
+header{
+	height: 10rem;
+	background: pink;
+}
+nav{
+	width: 45%;
+}
+h1{
+	color: purple;
+	background-color: white;
+	padding: 5px;
+	font-family: "arial black";
+    text-align: center;
+}
+h1:hover{
+	transition: transform 2s;
+	transform: scale(120%);
+}
+h2{
+	color: purple;
+	text-align: center;
+	text-transform: uppercase;
+}
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav a{
+	color: grey ;
+	text-align: center;
+	background-color: greenyellow;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+
+}
+nav a:hover{
+	background-color: lightblue;
+ 
+}
+label{
+	color: purple;
+	font-style: italic;
+	font-weight: bold;
+	width: 200px;
+	display: inline-block;
+}
+main {
+    height: 600px;
+    width: 100%;
+    
+}
+
+iframe{
+	height: 98%;
+	width: 74%;
+    float: right;
+}
+
+aside{
+    height: 500px;
+	width: 25%;
+    float: left;
+}
+
+
+
+footer{
+	height: 100px;
+	background-color: pink;
+	text-align: center;
+}
+
+.bb{
+	border: 2px solid green;
+	border-radius: 10px;
+	color: grey;
+	background-color: greenyellow;
+	font-size: medium;
+	font-weight: bold;
+	width: 100px;
+
+}
+.bb:hover{
+	color: purple;
+	background-color: white;
+	cursor: pointer;
+}
+legend{
+    color: rgb(55, 143, 214);
+}
+p {
+    float: right;
+}
+img{
+	text-align: center;
+	
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
